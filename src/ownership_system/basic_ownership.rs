@@ -24,7 +24,6 @@ pub fn basic_ownership_demo() {
 
     /* This would cause a compile error:
      * println!("s1 = {}", s1); // ❌ Error: s1 is no longer valid! */
-    // println!("s1 = {}", s1); // ❌ This line would cause a compile error!
     println!("s2 = {}", s2); /* ✅ s2 owns the string now */
 
     /* 3. CLONING - Creating independent copies */
